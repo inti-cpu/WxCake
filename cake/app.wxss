@@ -1,0 +1,13 @@
+/**app.wxss**/
+/**app.wxss**/
+/**app.wxss:所有界面共用的界面样式**/
+view,
+scroll-view{
+  box-sizing: border-box;
+  /* 内容盒子改为边框盒子 */
+}
+.hr{
+  height: 0;
+  border-top: 3px solid #f5f4f4;
+  margin: 14rpx 0;
+}

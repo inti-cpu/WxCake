@@ -1,0 +1,20 @@
+<!--pages/p11/p11.wxml-->
+<view class="search-bar">
+  <input type="text" class="input" placeholder="搜索商品" />
+  <image mode="widthFix" src="/assets/search.png" ></image>
+</view>
+<!--pages/p05/p05.wxml-->
+<view class="list">
+  <!-- 一个商品 -->
+  <view class="produce" wx:for="{{productList}}" wx:for-index="i" wx:for-item="p" wx:key="i">
+    <image src="{{p.img}}" mode="widthFix"></image>
+    <view class="desc">
+      <view class="title">{{p.pname}}</view>
+      <view class="title">{{p.ps}}</view>
+      <view class="title">{{p.size}}</view>
+      <view class="price">${{p.price}}</view>
+    </view>
+      <view class="details">查看详情</view>
+  </view>
+
+</view>

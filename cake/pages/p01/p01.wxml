@@ -1,0 +1,75 @@
+<!--pages/p01/p01.wxml-->
+<!-- 1、页头 -->
+<page-meta>
+  <navigation-bar title="蛋糕" background-color="#ffdedc"
+  />
+</page-meta>
+<!-- 2、轮播广告 -->
+<view>
+  <cover-image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/p01.png" mode="widthFix"/>
+</view>
+<view class="search-bar">
+  <input type="text" class="input" placeholder="生日蛋糕" />
+  <image mode="widthFix" src="/assets/search.png"></image>
+</view>
+<!-- 十宫格菜单 -->
+<view class="menu">
+  <view class="menu-item">
+    <image src="/assets/icon/1.png"  mode="widthFix" bindtap="jumpToP02"></image>
+    <view>蛋糕</view>
+  </view>
+  <view class="menu-item">
+    <image src="/assets/icon/2.png" mode="widthFix"></image>
+    <view>面包</view>
+  </view>
+  <view class="menu-item">
+    <image src="/assets/icon/3.png" mode="widthFix"></image>
+    <view>饼干</view>
+  </view>
+  <view class="menu-item">
+    <image src="/assets/icon/4.png" mode="widthFix"></image>
+    <view>布丁</view>
+  </view>
+  <view class="menu-item">
+    <image src="/assets/icon/5.png" mode="widthFix"></image>
+    <view>冰淇淋</view>
+  </view>
+  <view class="menu-item">
+    <image src="/assets/icon/6.png" mode="widthFix"></image>
+    <view>奶酪</view>
+  </view>
+  <view class="menu-item">
+    <image src="/assets/icon/7.png" mode="widthFix"></image>
+    <view>咖啡</view>
+  </view>
+  <view class="menu-item">
+    <image src="/assets/icon/8.png"  mode="widthFix"></image>
+    <view>巧克力</view>
+  </view>
+  <view class="menu-item">
+    <image src="/assets/icon/9.png"  mode="widthFix"></image>
+    <view>鲜花</view>
+  </view>
+  <view class="menu-item">
+    <image src="/assets/icon/10.png"  mode="widthFix"></image>
+    <view>小食</view>
+  </view>
+</view>
+<!-- 新品推荐 -->
+<view class="hr"></view>
+<view class="title-bar">
+  <view class="title">新品推荐</view>
+  <view class="more">更多   
+  </view>
+</view>
+
+<view class="course-list">
+  <scroll-view class="teacher-list" scroll-y="true">
+    <view class="course">
+      <image mode="widthFix" src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/new1.png"></image>   
+    </view>
+    <view class="course">
+      <image mode="widthFix" src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/new1.png"></image> 
+    </view>
+  </scroll-view> 
+</view>

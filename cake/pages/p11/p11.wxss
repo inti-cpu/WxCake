@@ -1,0 +1,31 @@
+.search-bar{
+  background: #ff6867;
+  position: relative;
+  height: 150rpx;
+  padding: 40rpx 20rpx;
+}
+.search-bar input{
+  background: rgb(248, 247, 247);
+  padding:10rpx 15rpx 10rpx 90rpx;
+  border-radius: 15px;
+}
+
+.search-bar image{
+  width: 50rpx;
+  position: absolute;
+  top: 22px;
+  left: 20px;
+} 
+/* pages/p05/p05.wxss */
+.produce{
+  border: 1rpx solid#ccc;
+  padding: 10rpx;
+  margin-bottom:15rpx;
+  display: flex;
+}
+.produce>image{
+  width: 200rpx;
+}
+.produce>.desc{
+  flex: 1;
+}

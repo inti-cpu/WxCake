@@ -1,0 +1,89 @@
+/* pages/p01/p01.wxss */
+.image{
+  width:750;
+  height:351.56rpx;
+}
+.search-bar{
+  position: relative;
+  padding: 20rpx 30rpx;
+}
+.search-bar input{
+  background: rgb(248, 247, 247);
+  padding:10rpx 15rpx 10rpx 90rpx;
+  border-radius: 15px;
+}
+
+.search-bar image{
+  width: 50rpx;
+  position: absolute;
+  top: 13px;
+  left: 20px;
+} 
+/* 菜单 */
+.menu{
+  /* 弹性布局要求父元素显示模式改为flex */
+  display: flex;
+  /* 弹性布局允许自动换行 */
+  flex-wrap: wrap;
+}
+.menu-item
+{
+  /* 弹性布局容器中的子元素自动变为inline-block */
+  /* 弹性布局默认不允许换行 */
+  width: 20%;
+  padding: 8px;
+}
+.menu-item>image{
+  width: 75%;
+}
+.menu-item>view{
+  text-align: center;
+  font-size: .9em;
+}
+.title-bar{
+  margin-top: .5em;
+}
+.title-bar .title{
+  color: #000000;
+  display: inline-block;
+  padding: .5em .2em;
+  margin-left: .5em;
+}
+.more{
+  float: right;
+  margin-top: .8em;
+  margin-right: .8em;
+  color: #646464;
+  font-size: .8em;
+}
+.course-list{
+  /* 弹性布局要求父元素显示模式改为flex */
+  display: flex;
+  /* 弹性布局允许自动换行 */
+  flex-wrap: wrap;
+}
+.course
+{
+  /* 弹性布局容器中的子元素自动变为inline-block */
+  /* 弹性布局默认不允许换行 */
+  width: 100%;
+  float: center;
+  padding: 16rpx 20rpx;
+}
+.course>image{
+  width: 100%;
+}
+.course>.desc{
+  font-size: .5em;
+  display: flex;
+  margin-top: 6rpx;
+
+}
+.course.desc.tname{
+  width: 50%;
+  color: #999;
+}
+.course.desc.price{
+  width: 50%;
+  color: #00c44d;
+}

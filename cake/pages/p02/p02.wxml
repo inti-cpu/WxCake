@@ -1,0 +1,40 @@
+<!--pages/p02/p02.wxml-->
+<view class="search-bar">
+  <input type="text" class="input" placeholder="生日蛋糕" />
+  <image mode="widthFix" src="/assets/search.png" ></image>
+</view>
+<!-- hh -->
+<scroll-view class="cake-list" scroll-x="true">
+  <view class="cake">
+    <view class="cName">蛋糕</view>
+  </view>
+  <view class="cake">
+    <view class="cName">面包</view>
+  </view>
+  <view class="cake">
+     <view class="cName">饼干</view>
+  </view>
+  <view class="cake">
+    <view class="cName">布丁</view>
+  </view>
+  <view class="cake">
+    <view class="cName">冰淇淋</view>
+  </view>
+  <view class="cake">
+    <view class="cnacNameme">奶酪</view>
+  </view>
+</scroll-view> 
+<view class="class-list">
+  <view class="ci">
+      <image bindtap="jumpToP03" src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/class1.png" mode="widthFix"></image>
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/class2.png" mode="widthFix"></image>
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/class3.png" mode="widthFix"></image>
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/class2.png" mode="widthFix"></image>
+  </view>
+  <view class="cii">
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/class7.png" mode="widthFix"></image>   
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/class4.png" mode="widthFix"></image>
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/class6.png" mode="widthFix"></image>
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/class4.png" mode="widthFix"></image>
+  </view>  
+</view>

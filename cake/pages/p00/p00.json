@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationStyle": "custom",
+
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "注册"
+}

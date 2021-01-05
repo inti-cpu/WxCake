@@ -1,0 +1,8 @@
+ <!-- pages/p00/p00.wxml -->
+<view class="shuruk">
+<input class="x" placeholder-style="color:#fffffa" bind:change='inputName' maxlength="11" title="账号" autofocus placeholder="请输入账号" />
+<input class="y"  bind:change='inputPassword' maxlength="10" title="密码" placeholder-style="color:#fffffa" autofocus placeholder="请输入密码" />
+<button class="dl" bindtap='login' type="success">登陆</button>
+<button class="d2" bindtap='register' type="success">注册</button>
+</view>
+

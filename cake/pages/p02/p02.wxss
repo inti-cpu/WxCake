@@ -1,0 +1,69 @@
+/* pages/p02/p02.wxss */
+/* .search input{
+  border: 1px solid #ddd;
+  width: 100%;
+  height: 25px;
+  border-radius: 15px;
+} */
+/* pages/cursedetail1/cursedetail1.wxss */
+.search-bar{
+  background: #ff6867;
+  position: relative;
+  height: 150rpx;
+  padding: 40rpx 20rpx;
+}
+.search-bar input{
+  background: rgb(248, 247, 247);
+  padding:10rpx 15rpx 10rpx 90rpx;
+  border-radius: 15px;
+}
+
+.search-bar image{
+  width: 50rpx;
+  position: absolute;
+  top: 22px;
+  left: 20px;
+} 
+
+/* 滑动条 */
+.cName{
+  width: 50%;
+  color: #000;
+}
+.cake-list{
+  white-space: nowrap;
+}
+.cake{
+  width: 160rpx;
+  display: inline-block;
+  padding: 20rpx 25rpx;
+  text-align: center;
+}
+.class-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.ci{
+  width: 50%;
+  display: inline-block;
+  padding: 10rpx 8rpx;
+  text-align: center;
+}
+
+.cii{
+  width: 50%;
+  display: inline-block;
+  padding: 10rpx 8rpx;
+  text-align: center;
+}
+.ci > image{
+  width: 100%;
+}
+.cii > image{
+  width: 100%;
+}
+
+
+
+
+

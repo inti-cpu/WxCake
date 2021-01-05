@@ -1,0 +1,16 @@
+<!-- p03-p04 -->
+
+<image class="background" src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/backgroundImg.png" mode="aspectFill"></image>
+<view class="content">
+    <view id="content-font-size">奶油乳脂蛋糕</view>
+    <view>规格 1.0磅 2.0磅 3.0磅</view>
+    <view>适合3-4人食用</view>
+    <view>0-8℃保存12小时</view>
+    <view>￥49.00</view>
+</view>
+<view class="button">
+    <button class="button1">立即购买</button>
+    <button class="button2" bindtap="jumpTo7">加入购物车</button>
+</view>
+
+

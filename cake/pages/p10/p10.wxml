@@ -1,0 +1,45 @@
+<!--pages/p10/p10.wxml-->
+<page-meta>
+    <navigation-bar title="立即购买"></navigation-bar>
+</page-meta>
+<image class="background" src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/backgroundImg.png" mode="aspectFill"></image>
+
+<view class="body">
+    <view class="body-f1">乳脂奶油蛋糕</view>
+    <view class="body-f2">适合3-4人食用</view>
+    <view class="body-f2">0-5℃保存12小时</view>
+    <view class="body-f3">￥28.00</view>
+    <view class="body-f4">商品规格</view>
+    <view class="buttonclass">
+        <button>1.0磅</button>
+        <button class="buttonclass-b1">2.0磅</button>
+        <button>3.0磅</button>
+    </view>
+
+    <view class="like">
+        <view class="like-likegood">
+            相似商品
+        </view>
+        <view class="like-view">
+        <swiper display-multiple-items="3.2">
+            <swiper-item class="like-swiper-item">
+                <image src="/pages/assent/backgroundImg.png"></image>
+            </swiper-item>
+            <swiper-item class="like-swiper-item">
+                <image src="/pages/assent/backgroundImg.png"></image>
+            </swiper-item>
+            <swiper-item class="like-swiper-item">
+                <image src="/pages/assent/backgroundImg.png"></image>
+            </swiper-item>
+            <swiper-item class="like-swiper-item">
+                <image src="/pages/assent/backgroundImg.png"></image>
+            </swiper-item>
+        </swiper>
+    </view>
+    </view>
+    <button class="confirmbutton">确定</button>
+</view>
+
+
+
+

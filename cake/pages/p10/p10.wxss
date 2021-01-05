@@ -1,0 +1,78 @@
+/* pages/p10/p10.wxss */
+/* pages/p02/p02.wxss */
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+
+.body{
+    border-radius: 20rpx;
+    margin-top: 200rpx;
+    margin-left:20rpx;
+    background-color: #fff;
+    border-color: #fff;
+    position:fixed; 
+    width: 95%;
+    height:auto;
+    z-index: 1;
+}
+
+.body>view{
+  padding-top:25rpx;
+  padding-left: 30rpx;
+}
+.body-f1{
+  color:#2e2e30;
+  font-size: 1.1em;
+  font-weight: 1.6rpx;   
+}
+.body-f2{
+    color:#3c3c3c;
+  font-size: .8em;
+}
+.body-f3{
+  color:#ffa0b8;
+}
+
+.body-f4{
+    color:#626264;
+    margin-top: 20rpx;
+}
+
+.buttonclass{
+  display: flex;
+  margin:30rpx 30rpx 30rpx 30rpx;
+}
+.buttonclass>button{
+  font-weight: normal;
+  font-size: .3em;
+  background-color:  #f6f4f7;
+  color: #727073;
+}
+.buttonclass-b1{
+   border: 1px solid;
+   background-color: #fff;
+}
+like-likegood{
+  color: #323433;
+}
+
+.like-view{
+  padding-top: 30rpx;
+}
+
+.like-swiper-item>image{
+  width: 200rpx;
+  height: 221rpx;
+  border-radius: 15rpx;
+}
+.confirmbutton{
+font-size: .8em;
+background-color: #ff6769;
+color: #fff;
+border-radius: 20rpx;
+margin-bottom: 30rpx;
+}

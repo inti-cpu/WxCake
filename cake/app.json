@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/p06/p06",
+    "pages/p7/p7",
+    "pages/regist/regist",
+    "pages/login/login" ,
+    "pages/p00/p00",
+    "pages/p10/p10",
+    "pages/p05/p05",  
+    "pages/p11/p11",
+    "pages/p03/p03",
+    "pages/p04/p04",
+    "pages/p01/p01",
+    "pages/p02/p02",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff6867",
+    "navigationBarTitleText": "生日蛋糕",
+    "navigationBarTextStyle":"white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/p01/p01",
+        "text": "首页",
+        "iconPath": "/assets/icon/15.png",
+        "selectedIconPath": "/assets/icon/11.png"
+      },
+      {
+        "pagePath": "pages/p02/p02",
+         "text": "分类",
+         "iconPath": "/assets/icon/16.png",
+         "selectedIconPath": "/assets/icon/12.png"
+      },
+      {
+        "pagePath": "pages/p7/p7",
+        "text": "购物车",
+        "iconPath": "/assets/icon/17.png",
+        "selectedIconPath": "/assets/icon/13.png"
+      },
+      {
+        "pagePath": "pages/p04/p04",
+        "text": "我的",
+        "iconPath": "/assets/icon/18.png",
+        "selectedIconPath": "/assets/icon/14.png"
+      }
+  ]
+  }
+}
+

@@ -1,0 +1,14 @@
+<!--pages/p04/p04.wxml-->
+<view class="main">
+    <view class="header">
+        <text class="about">关于我们</text>
+    </view>
+    <view class="address-box">
+        <view class="address-manage">
+            <navigator url="/pages/p05/p05" >地址管理</navigator>
+        </view>
+    </view>
+    <view class="orders-box">
+        <view class="orders">我的订单</view>
+    </view> 
+</view>

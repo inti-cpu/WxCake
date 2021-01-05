@@ -1,0 +1,37 @@
+<!--pages/regist/regist.wxml-->
+<form bindsubmit="registerBox">
+<view class="container"> 
+ <view class="login-from"> 
+ <!--用户名-->
+ <view class="inputView"> 
+  <label class="loginLab">用户名：</label> 
+  <input class="inputText" placeholder="请输入用户名" bindinput="usernameInput" /> 
+ </view> 
+ <view class="line"></view> 
+ <view class="inputView"> 
+  <label class="loginLab">账号：</label> 
+  <input class="inputText" placeholder="电话号码" bindinput="inputUserName" /> 
+ </view> 
+ <view class="line"></view> 
+ <!--密码-->
+ <view class="inputView"> 
+  <label class="loginLab">密码:</label> 
+  <input class="inputText" password="true" placeholder="请输入密码" bindinput="inputPassword" /> 
+ </view> 
+ <view class="line"></view> 
+ <view class="inputView"> 
+  <label class="loginLab">确认密码:</label> 
+  <input class="inputText" password="true" placeholder="再次确认密码" bindinput="inputPasswordAgain" /> 
+ </view> 
+ <view class="line"></view> 
+   <!-- 上传图片 -->
+ <!--按钮-->
+ <view class="loginBtnView"> 
+  <button class="loginBtn" bindtap="register" form-type="submit">注册</button> 
+ </view> 
+  <view class="login">
+   <navigator url="/pages/login/login">已有账号，去登录</navigator>
+  </view>
+ </view> 
+</view>
+</form>

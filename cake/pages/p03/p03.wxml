@@ -1,0 +1,18 @@
+<!--pages/p03/p03.wxml-->
+
+<view class="class-list">
+  <view class="ci"> 
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/cakeclass.png" mode="widthFix"></image>  
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/cakeclass2.png" mode="widthFix"></image>
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/cakeclass.png" mode="widthFix"></image>
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/cakeclass2.png" mode="widthFix"></image>
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/cakeclass.png" mode="widthFix"></image>
+  </view>
+  <view class="cii">  
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/cakeclass.png" mode="widthFix"></image>
+      <image bindtap="jumpToP06" src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/cakeclass2.png" mode="widthFix"></image>
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/cakeclass2.png" mode="widthFix"></image>
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/cakeclass.png" mode="widthFix"></image>
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/cakeclass2.png" mode="widthFix"></image>
+  </view>  
+</view>

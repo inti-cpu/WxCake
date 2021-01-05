@@ -1,0 +1,20 @@
+<view>
+  <swiper class="cake" indicator-dots="true" indicator-color="rgba(128,128,128,0.6)" indicator-active-color="#87CEEB" autoplay="true" interval="3000">
+    <swiper-item>
+      <navigator url="/pages/regist/regist">
+        <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/1.png" style="width:100%; height:1334rpx"></image>
+      </navigator>
+    </swiper-item>
+    <swiper-item>
+      <navigator url="/pages/regist/regist">
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/2.png" style="width:100%; height:1334rpx"></image>
+    </navigator>
+    </swiper-item>
+    <swiper-item> 
+      <navigator url="/pages/regist/regist">
+      <image src="cloud://daisy008-1gmeab9y7701876a.6461-daisy008-1gmeab9y7701876a-1304642119/assects/3.png" style="width:100%; height:1334rpx"></image>
+    </navigator>
+    </swiper-item>
+  </swiper>
+</view>
+          
